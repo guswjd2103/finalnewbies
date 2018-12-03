@@ -1,0 +1,53 @@
+
+.loginsection {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form {
+  position: relative;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  
+}
+.form input {
+  background: #f2f2f2;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 15px;
+  font-size: 14px;
+}
+.form button {
+  text-transform: uppercase;
+  background: rgb(233, 189, 189);
+  width: 100%;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  cursor: pointer;
+  margin-left : 20px;
+}
+.form button:hover,.form button:active,.form button:focus {
+  background:red;
+}
+.form .message {
+  margin: 15px 0 0;
+  color :white;
+  font-size: 12px;
+}
+
+.container {
+  position: relative;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:beforse, .container:after {
+  display: block;
+}
+
+body {
+  background: blanchedalmond; /* fallback for old browsers */
+  
+}
